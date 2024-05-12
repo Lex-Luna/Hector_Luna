@@ -1,3 +1,12 @@
+.redes {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
 .Secciones {
     display: grid;
     align-items: center;
@@ -102,6 +111,10 @@ img {
     transform: scale(1.2);
 }
 
+.item_sur:hover img {
+    transform: scale(1.02);
+}
+
 tengo el .info-product {
     padding: 15px 30px;
     line-height: 2;
@@ -145,4 +158,25 @@ tengo el .info-product {
         align-items: center;
         background-color: transparent;
     }
+}
+
+.whatsapp-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-button img {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 20px;
 }
