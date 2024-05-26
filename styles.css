@@ -7,6 +7,53 @@
     gap: 0.5rem;
 }
 
+.hero {
+    display: flex;
+    background-image: url(Imagenes/TarjetaMobiliario02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    /* margin: 2rem; */
+    max-width: 100%;
+}
+
+.ubicacion {
+    color: white;
+    display: flex;
+}
+
+.imgMain {
+    display: block;
+    /* Hace que la imagen sea un bloque para aplicar márgenes */
+    width: Auto;
+    /* Hace que la imagen ocupe todo el ancho de su contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgba(126, 116, 116, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero h2,
+.concontenido-hero p {
+    font-size: 2.6rem;
+}
+
 .Secciones {
     display: grid;
     align-items: center;
@@ -19,9 +66,8 @@
     font-family: monospace;
     font-size: 2.8rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+    flex-direction: row;
+    align-items: first baseline;
 }
 
 .titulo span {
@@ -166,7 +212,7 @@ tengo el .info-product {
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #25d366;
+    /* background-color: #25d366; */
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -179,4 +225,9 @@ tengo el .info-product {
     width: 100%;
     background-color: transparent;
     margin-bottom: 20px;
+}
+
+.whatsapp-button:hover img {
+    transform: scale(1.1);
+    /* Agrandar la imagen un 10% */
 }
