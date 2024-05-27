@@ -2,16 +2,12 @@
 <html lang="es">
 
 <head>
-    <!-- Etiquetas de localizacion -->
-    <meta name="geo.region" content="EC-P" />
-    <meta name="geo.placename" content="Quito" />
-    <meta name="geo.position" content="0.180653;-78.467838" />
-    <meta name="ICBM" content="0.180653, -78.467838" />
+
     <!-- Etiquetas de lenguaje -->
     <meta name="language" content="Spanish">
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Para mejorar la busqueda en google -->
     <title>Galeria Virtual Héctor Luna</title>
@@ -19,12 +15,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="icon" type="image/svg+xml" href="Imagenes/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="pintura/favicon.svg" />
 </head>
 
 <body>
-    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+
 
     <header class="header">
 
@@ -32,7 +27,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img class="logo" src="Imagenes/Logo_Luna.png" alt="logo" height="50px" /></a>
+                    <a class="navbar-brand" href="#"><img class="logo" src="pintura/Logo_Luna.png" alt="logo" height="50px" /></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -56,13 +51,13 @@
                 </div>
                 <div class="redes">
                     <a href="https://www.facebook.com/profile.php?id=100024823500876" class="button" target="_blank">
-                        <img src="Imagenes/facebook.png" alt="Icono de Facebook" height="30px" />
+                        <img src="pintura/facebook.png" alt="Icono de Facebook" height="30px" />
                     </a>
                     <a href="https://instagram.com/csm_mobiliario?igshid=MzRlODBiNWFlZA==" class="button" target="_blank">
-                        <img src="Imagenes/instagram.png" alt="Icono de Instagram" height="30px" />
+                        <img src="pintura/instagram.png" alt="Icono de Instagram" height="30px" />
                     </a>
                     <a href="mailto:sirkhan3@gmail.com" class="button" target="_blank">
-                        <img src="Imagenes/email.png" alt="Icono Mail" height="30px" />
+                        <img src="pintura/email.png" alt="Icono Mail" height="30px" />
                     </a>
                 </div>
 
@@ -72,7 +67,7 @@
 
     <div class="contenedor">
         <section class="hero">
-            <img class="imgMain" src="Imagenes/Perfil.enc" alt="Sobre mi" />
+            <img class="imgMain" src="pintura/Perfil.enc" alt="Sobre mi" />
             <div class="contenido-hero">
                 <h2 class="titulo">Héctor<span>Luna</span></h2>
             </div>
@@ -106,82 +101,91 @@
         <h2>Pinturas</h2>
 
         <div class="container-items">
+
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Gea.jpeg" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Gea.jpeg" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Gea</h3>
+                    <h3 class="TituloModal">Gea</h3>
+                    <p class="Descrip"> </p>
                     <p class="price">$105</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/img_Logo.jpeg" loading="lazy" alt="cuadro" />
+                    <img src="pintura/img_Logo.jpeg" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Luna</h3>
+                    <h3 class="TituloModal">Luna</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$95</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Madre.jpeg" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Madre.jpeg" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Madre</h3>
+                    <h3 class="TituloModal">Madre</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Pacha mama Mari.jpeg" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Pacha mama Mari.jpeg" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Pacha mama Mari</h3>
+                    <h3 class="TituloModal">Pacha mama Mari</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$140</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Árbol 60 X80.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Árbol 60 X80.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Árbol 60 X80</h3>
+                    <h3 class="TituloModal">Árbol 60 X80</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Día y Noche.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Día y Noche.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Día y Noche</h3>
+                    <h3 class="TituloModal">Día y Noche</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+
+            <div class="item_sur">
+                <figure>
+                    <img src="pintura/Diáspora 70 X 30 cm.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Diáspora 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Diáspora 70 X 30 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Ecos de Africa 2 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Diáspora 70 X 30 cm</h3>
-                    <p class="price">$80</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <figure>
-                    <img src="Imagenes/Ecos de Africa 2 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
-                </figure>
-                <div class="info-product">
-                    <h3>Ecos de Africa 2 140 X 100 cm</h3>
+                    <h3 class="TituloModal">Ecos de Africa 2 140 X 100 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
@@ -189,104 +193,184 @@
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Ecos de Africa 3 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Ecos de Africa 3 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Árbol 60 X80</h3>
+                    <h3 class="TituloModal">Árbol 60 X80</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Ecos de Africa 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Ecos de Africa 140 X 100 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Árbol 60 X80</h3>
+                    <h3 class="TituloModal">Árbol 60 X80</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Encuentro.jpeg" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Encuentro.jpeg" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Encuentro</h3>
+                    <h3 class="TituloModal">Encuentro</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Equus 60 X 80 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Equus 60 X 80 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Equus 60 X 80 cm</h3>
+                    <h3 class="TituloModal">Equus 60 X 80 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Festividad 60 X 80 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Festividad 60 X 80 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Festividad 60 X 80 cm</h3>
+                    <h3 class="TituloModal">Festividad 60 X 80 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Festivo 56 X 46 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Festivo 56 X 46 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Festivo 56 X 46 cm</h3>
+                    <h3 class="TituloModal">Festivo 56 X 46 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item_sur">
                 <figure>
-                    <img src="Imagenes/Migración 117 X 80 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Migración 117 X 80 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Migración 117 X 80 cm</h3>
-                    <p class="price">$80</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <figure>
-                    <img src="Imagenes/Personajes 130 X 140 cm.JPG" loading="lazy" alt="cuadro" />
-                </figure>
-                <div class="info-product">
-                    <h3>Personajes 130 X 140 cm</h3>
+                    <h3 class="TituloModal">Migración 117 X 80 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div class="item">
                 <figure>
-                    <img src="Imagenes/Vuelvo al Sur 70 X 30 cm.JPG" loading="lazy" alt="cuadro" />
+                    <img src="pintura/Personajes 130 X 140 cm.JPG" loading="lazy" alt="cuadro" />
                 </figure>
                 <div class="info-product">
-                    <h3>Vuelvo al Sur 70 X 30 cm</h3>
+                    <h3 class="TituloModal">Personajes 130 X 140 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+
+            <div class="item_sur">
+                <figure>
+                    <img src="pintura/Vuelvo al Sur 70 X 30 cm.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <!-- ---------------------Esculturas---------------------------------------- -->
+
+            <div class="item">
+                <figure>
+                    <img src="Escultura/Es1.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es2.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es3.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es4.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es5.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es6.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
+                    <p class="price">$80</p>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="Escultura/es7.JPG" loading="lazy" alt="cuadro" />
+                </figure>
+                <div class="info-product">
+                    <h3 class="TituloModal">Vuelvo al Sur 70 X 30 cm</h3 class="TituloModal">
+                    <p class="Descrip"> </p>
                     <p class="price">$80</p>
                 </div>
             </div>
 
             <div id="contacto" class="Fix"></div>
 
-
         </div>
 
         <!-- boton whats -->
         <a href="https://wa.me/34688738030" class="whatsapp-button" target="_blank">
-            <img src="Imagenes/whatsapp.png" alt="Icono de WhatsApp" height="60px" />
+            <img src="pintura/whatsapp.png" alt="Icono de WhatsApp" height="60px" />
         </a>
         <footer class="footer">
-            <img src="Imagenes/favicon.svg" alt="" width="18px" /></div>
+            <img src="pintura/favicon.svg" alt="" width="18px" /></div>
     <b>Hector Luna</b></p>
 
     </footer>
