@@ -248,3 +248,15 @@ img {
     transform: scale(1.1);
     /* Agrandar la imagen un 10% */
 }
+
+.footer {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    height: 100%;
+    color: #dddcc8;
+    font-size: large;
+    padding: 0.5rem;
+    /* place-items: center; */
+}
