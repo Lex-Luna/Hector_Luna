@@ -72,15 +72,16 @@
 
 .titulo span {
     font-size: 2.5rem;
-    color: #5f6a6a;
+    /* color: #5f6a6a; */
     font-family: monospace;
 }
 
 body {
     /* margin: 0 auto; */
-    margin-top: 8rem;
+    margin-top: 0rem;
     font-family: "Lato";
-    color: #333;
+    /* color: #333; */
+    color: #6E6E6D;
     /* display: flex;
   justify-content: center; */
 }
