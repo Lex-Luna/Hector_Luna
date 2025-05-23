@@ -1,3 +1,12 @@
+.body-escultura {
+    /* margin: 0 auto; */
+    margin-top: 0rem;
+    font-family: "Lato";
+    background: url(iconos/fondoAleternativo.webp);
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-size: cover; /* Ajusta el tamaño para cubrir la página */
+    background-position: center; /* Centra la imagen */
+}
 body {
     /* margin: 0 auto; */
     margin-top: 0rem;
@@ -7,6 +16,7 @@ body {
     background-size: cover; /* Ajusta el tamaño para cubrir la página */
     background-position: center; /* Centra la imagen */
 }
+
 .header{
     background-color: rgba(255, 255, 255,0.9);
 
@@ -28,7 +38,7 @@ body {
     background-image: url(pintura/imgHero.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 70rem;
     margin-bottom: 2rem;
     margin-top: 0rem;
@@ -137,7 +147,7 @@ body {
 }
 
 .item {
-    background-color: rgba(240, 248, 255,0.8);
+    background-color: rgba(240, 248, 255,0.3);
     border-radius: 10px;
     max-width: 15rem;
     min-height: 32rem;
@@ -254,7 +264,7 @@ body {
     }
 }
 
-.whatsapp-button {
+.whatsapp-button-index {
     position: fixed;
     width: 60px;
     height: 60px;
@@ -265,21 +275,72 @@ body {
     border-radius: 50px;
     text-align: center;
     font-size: 3rem;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px #280f0f;
     z-index: 100;
+    img{
+        width: 100%;
+        background-color: transparent;
+        margin-bottom: 28px;
+    }
+}
+
+
+.whatsapp-button-index:hover img {
+    transform: scale(1.1);
+    /* Agrandar la imagen un 10% */
 }
 
 .whatsapp-button img {
     width: 100%;
     background-color: transparent;
     margin-bottom: 20px;
+}.whatsapp-button-sobreMi {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 2px 2px 3px #280f0f;
+    z-index: 100;
+    img{
+        width: 100%;
+        background-color: transparent;
+        margin-bottom: 28px;
+    }
 }
-
-.whatsapp-button:hover img {
+.whatsapp-button-sobreMi:hover img {
     transform: scale(1.1);
     /* Agrandar la imagen un 10% */
 }
+.whatsapp-button-escultura {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 2px 2px 3px #280f0f;
+    z-index: 100;
+    img{
+        width: 100%;
+        background-color: transparent;
+        margin-bottom: 28px;
+    }
+}
 
+.whatsapp-button-escultura:hover img {
+    transform: scale(1.1);
+    /* Agrandar la imagen un 10% */
+}
 .footer {
     margin-top: 1.5rem;
     display: flex;
