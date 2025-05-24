@@ -11,7 +11,7 @@ body {
     /* margin: 0 auto; */
     margin-top: 0rem;
     font-family: "Lato";
-    background: url(iconos/FondoVede.webp);
+    background: url(iconos/gradasVerdes.webp);
     background-repeat: no-repeat; /* Evita que se repita */
     background-size: cover; /* Ajusta el tamaño para cubrir la página */
     background-position: center; /* Centra la imagen */
@@ -19,11 +19,16 @@ body {
 
 .header{
     background-color: rgba(255, 255, 255,0.9);
+    z-index: 101;
+    
+    position: fixed;
+    width: 100%;
 
 }
 .nav-link {
     font-weight: bold;
 }
+
 .redes {
     background-color: transparent;
     display: flex;
@@ -160,7 +165,7 @@ body {
 }
 
 .item_sur {
-    background-color: rgba(240, 248, 255,0.8);
+    background-color: rgba(240, 248, 255,0.3);
     grid-column: span 2;
     display: grid;
     align-items: center;
