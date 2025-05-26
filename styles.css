@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat; /* Evita que se repita */
     background-size: cover; /* Ajusta el tamaño para cubrir la página */
     background-position: center; /* Centra la imagen */
+    animation: enhance-header;
 }
 
 .header{
@@ -69,12 +70,16 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
+    flex-direction: column;
 }
+
 .logoHero {
     position: absolute; /* Asegúrate de que la posición esté configurada */
-    top: 15px !important; /* Usa !important para forzar la aplicación */
+    top: 25% !important; /* Usa !important para forzar la aplicación */
     left: 15px !important; /* Usa !important para forzar la aplicación */
     width: 30%; /* Ajusta el tamaño según sea necesario */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
 }
 .ubicacion {
     color: white;
@@ -87,6 +92,19 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    
+}
+ @media (max-width: 380px) {
+    .contenido-hero-inner {
+        flex-direction: r;
+    }
+    .columna{      
+        flex-direction: row;
+        width: 100%;
+    } 
+    .contenido-hero-inner {
+        flex-direction: row;
+    }
 }
 .imgMain {
     display: block;
@@ -357,4 +375,17 @@ body {
     font-size: large;
     padding: 0.5rem;
     /* place-items: center; */
+}
+
+@keyframes enhance-header {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: .4;
+        backdrop-filter: blur(5px);
+    }
+    100% {
+        opacity: .4;
+    }
 }
