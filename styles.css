@@ -15,15 +15,15 @@ body {
     background-repeat: no-repeat; /* Evita que se repita */
     background-size: cover; /* Ajusta el tamaño para cubrir la página */
     background-position: center; /* Centra la imagen */
-    animation: enhance-header;
+    
 }
 
 .header{
     background-color: rgba(255, 255, 255,0.9);
-    z-index: 101;
+    /* z-index: 101;
     
     position: fixed;
-    width: 100%;
+    width: 100%; */
 
 }
 .nav-link {
